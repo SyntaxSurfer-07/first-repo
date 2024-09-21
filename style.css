@@ -4,7 +4,7 @@
     color: white;
     text-shadow: 5px 5px 5px rgb(212, 162, 162);
     background-color: burlywood;
-    background-image: url('./images/107.jpg');
+    background-image: url('./images/124.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -18,29 +18,15 @@ h2{
     font-size: 25px;
     font-weight: 800;
 }
-.block{
-    text-align: center;
-    border: 5px solid greenyellow;
-    margin: 30px 20px 20px 20px;
-    padding: 20px;
-    border-radius: 10px;
-    /* display: flex; */
-    /* justify-content: start; */
-    align-items: center;
-}
-.type_1{
-    padding: 10px;
-    box-shadow: 5px 5px 5px rgb(66, 22, 66);
-    margin: 10px;
-    border-radius: 10px;
-    background-color: aquamarine;
-}
 .inline-block{
     text-align: center;
     border: 5px solid greenyellow;
     margin: 30px 20px 20px 20px;
     padding: 20px;
     border-radius: 10px;
+}
+a{
+    text-decoration: none;
 }
 .type_2{
     padding: 10px;
@@ -50,5 +36,15 @@ h2{
     background-color: aquamarine;
     display: inline-block;
     width: 20%;
-    height: 270px;
+    min-height: 250px;
+    vertical-align: top;
+}
+.image {
+    width: auto;            /* Allow the image to scale naturally */
+    max-width: 300px;        /* Set a maximum width for the image */
+    height: 250px;            /* Maintain the aspect ratio */
+    display: block;          /* Makes it easier to center */
+    margin: 10px auto;          /*Centers the image horizontally */
+    border: 2px solid black; /* Keep the border as you had */
+    border-radius: 10px;
 }
