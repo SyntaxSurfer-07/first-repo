@@ -1,0 +1,34 @@
+.heading{
+    color: blue;
+    text-align: center;
+}
+.image_01{
+    height: 600px;
+    border: 5px solid red;
+    background-image: url('./images/116\ best.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px 10px rgb(206, 77, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.text_01{
+    /* color: rgb(221, 23, 66); */
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.image_02{
+    background-image: url('./images/118\ good.jpg');
+}
+
+.image_03{
+    background-image: url('./images/115.jpg');
+}
